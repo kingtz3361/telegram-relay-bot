@@ -1,6 +1,6 @@
 from telegram.ext import Updater, MessageHandler, Filters
 
-TOKEN = "توکن_ربات_اینجا"
+TOKEN = "8540235886:AAGLHesJ7YFiN_Wyx-hlOB_YFRoMsGW6axs"
 ADMIN_CHAT_ID = 239467720  # آیدی خودت
 
 def user_message(update, context):
@@ -38,3 +38,4 @@ dp.add_handler(MessageHandler(Filters.text & Filters.reply, admin_reply))
 
 updater.start_polling()
 updater.idle()
+
